@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="icon_globe">&#xe949;</string>
+
+    <string name="icon_covid">&#xe948;</string>
+
+    <string name="icon_report_share">&#xe94a;</string>
+    <string name="icon_drop_down">&#xe94b;</string>
+    <string name="icon_single_tick">&#xe94c;</string>
+    <string name="icon_double_tick">&#xe94d;</string>
+    <string name="icon_square">&#xe94e;</string>
+    <string name="icon_circle">&#xe94f;</string>
+    <string name="icon_chat_line">&#xe950;</string>
+
+
+    <string name="icon_poor">&#xe943;</string>
+    <string name="icon_great">&#xe944;</string>
+    <string name="icon_okay">&#xe945;</string>
+    <string name="icon_good">&#xe946;</string>
+    <string name="icon_excellent">&#xe947;</string>
+    <string name="icon_back_arrow">&#xe942;</string>
+
+
+    <string name="icon_new_about_us">&#xe941;</string>
+    <string name="icon_email">&#xe93f;</string>
+    <string name="icon_phone">&#xe940;</string>
+
+
+
+    <string name="icon_download">&#xe93c;</string>
+    <string name="icon_flash_fill">&#xe93d;</string>
+    <string name="icon_auto_flash">&#xe93e;</string>
+
+
+
+    <string name="icon_gallery">&#xe93a;</string>
+    <string name="icon_right_arrow">&#xe93b;</string>
+
+    <string name="icon_faq">&#xe939;</string>
+    <string name="icon_smile">&#xe938;</string>
+    <string name="icon_smile_selected">&#xe937;</string>
+    <string name="icon_Logo">&#xe936;</string>
+    <string name="icon_share_smile">&#xe932;</string>
+    <string name="icon_compare">&#xe933;</string>
+    <string name="icon_flash">&#xe934;</string>
+    <string name="icon_flip">&#xe935;</string>
+    <string name="icon_feature_request">&#xe931;</string>
+    <string name="icon_settings">&#xe930;</string>
+    <string name="icon_change_password">&#xe92f;</string>
+    <string name="icon_add">&#xe92e;</string>
+    <string name="icon_uncheck">&#xe92c;</string>
+    <string name="icon_checked">&#xe92d;</string>
+    <string name="icon_reload">&#xe92a;</string>
+    <string name="icon_send">&#xe92b;</string>
+    <string name="icon_search_thick">&#xe929;</string>
+    <string name="icon_reminder_clock">&#xe91d;</string>
+    <string name="icon_add_reminder">&#xe91e;</string>
+    <string name="icon_fill_close">&#xe91f;</string>
+    <string name="icon_delete">&#xe920;</string>
+    <string name="icon_search">&#xe921;</string>
+    <string name="icon_add_post">&#xe922;</string>
+    <string name="icon_plus">&#xe923;</string>
+    <string name="icon_eye">&#xe924;</string>
+    <string name="icon_chat_bubble">&#xe925;</string>
+    <string name="icon_likes">&#xe926;</string>
+    <string name="icon_share_post">&#xe927;</string>
+    <string name="icon_share">&#xe928;</string>
+    <string name="icon_check_box_with_white_check">&#xe91b;</string>
+    <string name="icon_blank_check_box">&#xe91c;</string>
+    <string name="icon_edit">&#xe908;</string>
+    <string name="icon_logout">&#xe909;</string>
+    <string name="icon_debug_log">&#xe90a;</string>
+    <string name="icon_gdpr">&#xe918;</string>
+    <string name="icon_contact_us">&#xe919;</string>
+    <string name="icon_about_us">&#xe91a;</string>
+    <string name="icon_photo_camera">&#xe904;</string>
+    <string name="icon_info">&#xe906;</string>
+    <string name="icon_tick_fill">&#xe907;</string>
+    <string name="icon_profile">&#xe903;</string>
+    <string name="icon_Create_score_icon">&#xe901;</string>
+    <string name="icon_Score_tooth">&#xe902;</string>
+    <string name="icon_menu_selected">&#xe900;</string>
+    <string name="icon_oral_health_selected">&#xe905;</string>
+    <string name="icon_reminder_selected">&#xe90b;</string>
+    <string name="icon_reminder">&#xe90c;</string>
+    <string name="icon_forum">&#xe90d;</string>
+    <string name="icon_forum_selected">&#xe90e;</string>
+    <string name="icon_menu">&#xe90f;</string>
+    <string name="icon_awareness">&#xe910;</string>
+    <string name="icon_awareness_selected">&#xe911;</string>
+    <string name="icon_Play">&#xe912;</string>
+    <string name="icon_Close">&#xe913;</string>
+    <string name="icon_tooth">&#xe914;</string>
+    <string name="icon_oral_health">&#xe915;</string>
+    <string name="icon_left_arrow">&#xe916;</string>
+    <string name="icon_Logo_icon">&#xe917;</string>
+
+
+</resources>

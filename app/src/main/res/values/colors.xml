@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1C6AB1</color>
+    <color name="colorPrimaryDark">#1C6AB1</color>
+    <color name="colorAccent">#1C6AB1</color>
+    <color name="snack_color">#FEA12B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#3B3B3B</color>
+    <color name="pure_black">#000000</color>
+    <color name="blue">#1C6AB1</color>
+    <color name="thick_blue">#0C3F6F</color>
+    <color name="light_blue">#6FA3EE</color>
+    <color name="so_light_blue">#E9F4FF</color>
+    <color name="dull_grey">#909090</color>
+    <color name="dull_white">#E2E0E0</color>
+    <color name="light_grey">#D3D3D3</color>
+    <color name="image_backgound_grey">#D3D3D3</color>
+    <color name="transperant_background">#00000000</color>
+    <color name="red">#e90d0d</color>
+    <color name="start_green">#4EFD6D</color>
+    <color name="user_role_text_color">#FFFFFF</color>
+
+    <color name="end_green">#0AB63A</color>
+    <color name="selected_green">#6EF7A2</color>
+    <color name="color_screen_bg">#F4F4F4</color>
+    <color name="edit_text_under_line">#5F5F5F</color>
+
+    <color name="medium_grey">#858585</color>
+
+    <color name="grey">#4A4A4A</color>
+    <color name="green">#7ED321</color>
+    <color name="bg_delete_account_">#6B979797</color>
+    <color name="delete_account_desc">#6B4A4A4A</color>
+
+    <color name="gd_oral_report_top">#AACDFF</color>
+    <color name="gd_oral_report_bottom">#FFFFFF</color>
+    <color name="tv_dc_pd">#858585</color>
+    <color name="tag_close_color">#337CE4</color>
+    <color name="chip_background_color">#E9EFF7</color>
+    <color name="chip_stroke_color">#337CE4</color>
+    <color name="chip_heading_color">#6E6E6E</color>
+    <color name="chip_outline_color">#F2F2F2</color>
+    <color name="tv_password_hint_color">#949494</color>
+    <color name="orange_color">#FEAF4A</color>
+    <color name="periodontitis_color">#F8E71C</color>
+    <color name="dental_carier_color">#50E3C2 </color>
+    <color name="aboutus_desc_color">#2F2F2F</color>
+
+    <color name="tab_bg_color">#0C3F6F</color>
+    <color name="medical_view_bg">#F4F4F4</color>
+    <color name="til_hint_color">#6E6E6E</color>
+    <color name="rating_guidelines_color">#F2F2F2</color>
+    <color name="teeth_rating_guidelines_green_color">#3EC01A</color>
+
+    <color name="faq_qus_black">#000000</color>
+    <color name="faq_qus_blue">#1C6AB1</color>
+    <color name="faq_answer">#2E2E2E</color>
+    <color name="life_style_grey">#EEEEEE</color>
+    <color name="life_style_green">#3FB35B</color>
+    <color name="rating_point_color">#868686</color>
+    <color name="rating_Moderate_color">#FF8100</color>
+    <color name="rating_danger_color">#FF0000</color>
+    <color name="choose_account_desc_color">#2B2B2B</color>
+    <color name="fb_login_color">#3B65BF</color>
+    <color name="google_login_color">#4285F4</color>
+    <color name="grey_circle_bg_color">#D6D6D6</color>
+    <color name="grey_discussion_date_color">#575757</color>
+    <color name="feature_req_des_color">#B3DFFF</color>
+    <color name="multi_editText_color">#D7D7D7</color>
+
+    <color name="transparentBlack">#2C080808</color>
+    <color name="aboust_us_background">#EFEFEF</color>
+    <color name="popup_heading_color">#1D1D1D</color>
+    <color name="popup_description_color">#4A4A4A</color>
+    <color name="color_border_green">#3FB35B</color>
+    <color name="color_background_green">#DBFFE3</color>
+    <color name="grey_view_color">#03FFFFFF</color>
+    <color name="add_discussion_title_color">#6E6E6E</color>
+
+    <color name="ic_date_color">#949494</color>
+    <color name="type_comment_color">#7B7B7B</color>
+    <color name="start_gradient_color">#A9D1F6</color>
+    <color name="end_gradient_color">#FFFFFF</color>
+    <color name="color_dashboard">#F4F4F4</color>
+    <color name="youtube_player_bg">#000000</color>
+    <color name="btn_orange_bg">#FF973A</color>
+    <color name="hint_color">#B0B0B0</color>
+    <color name="color_score_red">#e90d0d</color>
+    <color name="color_score_orange">#FEAF4A</color>
+    <color name="color_score_green">#7ED321</color>
+    <color name="add_img_bg">#2F000000</color>
+    <color name="discussion_bg">#FAFAFA</color>
+    <color name="qr_code_reader_square">#FFFFFF</color>
+
+    <color name="excellent_select_color">#1C69B1</color>
+    <color name="excellent_un_select_color">#801C69B1</color>
+    <color name="great_select_color">#23A9E5</color>
+    <color name="great_un_select_color">#8023A9E5</color>
+    <color name="good_select_color">#FDBE4E</color>
+    <color name="good_un_select_color">#80FDBE4E</color>
+    <color name="okay_select_color">#FFA056</color>
+    <color name="okay_un_select_color">#80FFA056</color>
+    <color name="poor_select_color">#FF7F80</color>
+    <color name="poor_un_select_color">#80FF7F80</color>
+    <color name="dark_green">#3FB35B</color>
+    <color name="transparent_bg_black">#B3000000</color>
+</resources>
+
+
+
+
+
+
+
+
+
+

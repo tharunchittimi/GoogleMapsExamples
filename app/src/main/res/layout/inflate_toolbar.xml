@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbarRootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp60"
+        android:background="@color/blue"
+        android:paddingLeft="@dimen/dp15"
+        android:paddingRight="@dimen/dp15">
+
+        <com.example.googlemapsexamples.widgets.CustomTextView
+            android:id="@+id/txtToolbarBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/icon_left_arrow"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp18"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:setFont="Icons" />
+
+        <com.example.googlemapsexamples.widgets.CustomTextView
+            android:id="@+id/txtToolbarHeading"
+            style="@style/extra_large_text_regular"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp5"
+            android:layout_marginRight="@dimen/dp5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Sign In"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/txtToolbarBack"
+            app:layout_constraintRight_toLeftOf="@id/txtToolBarRight"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.googlemapsexamples.widgets.CustomTextView
+            android:id="@+id/txtToolBarRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/icon_menu"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:setFont="Icons" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

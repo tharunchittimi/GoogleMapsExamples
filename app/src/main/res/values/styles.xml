@@ -1,0 +1,266 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="setFont" format="enum">
+            <enum name="Regular" value="0" />
+            <enum name="RegularItalic" value="1" />
+            <enum name="Bold" value="2" />
+            <enum name="BoldItalic" value="3" />
+            <enum name="Heavy" value="4" />
+            <enum name="HeavyItalic" value="5" />
+            <enum name="Light" value="6" />
+            <enum name="LightItalic" value="7" />
+            <enum name="Medium" value="8" />
+            <enum name="MediumItalic" value="9" />
+            <enum name="Semibold" value="10" />
+            <enum name="SemiboldItalic" value="11" />
+            <enum name="Icons" value="12" />
+        </attr>
+    </declare-styleable>
+
+    <string-array name="FontNames">
+        <item>SF-Pro-Text-Regular.ttf</item>
+        <item>SF-Pro-Text-RegularItalic.ttf</item>
+        <item>SF-Pro-Text-Bold.ttf</item>
+        <item>SF-Pro-Text-BoldItalic.ttf</item>
+        <item>SF-Pro-Text-Heavy.ttf</item>
+        <item>SF-Pro-Text-HeavyItalic.ttf</item>
+        <item>SF-Pro-Text-Light.ttf</item>
+        <item>SF-Pro-Text-LightItalic.ttf</item>
+        <item>SF-Pro-Text-Medium.ttf</item>
+        <item>SF-Pro-Text-MediumItalic.ttf</item>
+        <item>SF-Pro-Text-Semibold.ttf</item>
+        <item>SF-Pro-Text-SemiboldItalic.ttf</item>
+        <item>Oral-App.ttf</item>
+    </string-array>
+
+    <!--    Text styles starts-->
+    <style name="small_text">
+        <item name="android:textSize">@dimen/_10sp</item>
+        <item name="setFont">Light</item>
+    </style>
+
+    <style name="small_text_regular">
+        <item name="android:textSize">@dimen/_10sp</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+    <style name="small_text_semi_bold">
+        <item name="android:textSize">@dimen/_10sp</item>
+        <item name="setFont">Medium</item>
+    </style>
+
+    <style name="small_text_bold">
+        <item name="android:textSize">@dimen/_10sp</item>
+        <item name="setFont">Bold</item>
+    </style>
+
+    <style name="small_text_italic">
+        <item name="android:textSize">@dimen/_10sp</item>
+        <item name="setFont">LightItalic</item>
+    </style>
+
+    <style name="very_small_text_italic">
+        <item name="android:textSize">@dimen/_8sp</item>
+        <item name="setFont">LightItalic</item>
+    </style>
+
+    <style name="medium_small_text">
+        <item name="android:textSize">@dimen/_11sp</item>
+        <item name="setFont">Light</item>
+    </style>
+
+    <style name="medium_small_text_semi_bold">
+        <item name="android:textSize">@dimen/_11sp</item>
+        <item name="setFont">Medium</item>
+    </style>
+
+    <style name="medium_small_text_regular">
+        <item name="android:textSize">@dimen/_11sp</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+    <style name="medium_small_text_bold">
+        <item name="android:textSize">@dimen/_11sp</item>
+        <item name="setFont">Bold</item>
+    </style>
+
+    <style name="medium_small_text_italic">
+        <item name="android:textSize">@dimen/_11sp</item>
+        <item name="setFont">MediumItalic</item>
+    </style>
+
+    <style name="medium_text">
+        <item name="android:textSize">@dimen/_12sp</item>
+        <item name="setFont">Light</item>
+    </style>
+
+    <style name="medium_text_regular">
+        <item name="android:textSize">@dimen/_12sp</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+    <style name="medium_text_semi_bold">
+        <item name="android:textSize">@dimen/_12sp</item>
+        <item name="setFont">Medium</item>
+    </style>
+
+    <style name="medium_text_bold">
+        <item name="android:textSize">@dimen/_12sp</item>
+        <item name="setFont">Bold</item>
+    </style>
+
+    <style name="medium_text_italic">
+        <item name="android:textSize">@dimen/_12sp</item>
+        <item name="setFont">MediumItalic</item>
+    </style>
+
+    <style name="medium_large_text_semi_bold">
+        <item name="android:textSize">@dimen/_13sp</item>
+        <item name="setFont">Medium</item>
+    </style>
+
+    <style name="medium_large_text_Regular">
+        <item name="android:textSize">@dimen/_13sp</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+    <style name="medium_large_text_bold">
+        <item name="android:textSize">@dimen/_13sp</item>
+        <item name="setFont">Bold</item>
+    </style>
+
+    <style name="medium_large_text_italic">
+        <item name="android:textSize">@dimen/_13sp</item>
+        <item name="setFont">MediumItalic</item>
+    </style>
+
+
+    <style name="large_text">
+        <item name="android:textSize">@dimen/_14sp</item>
+        <item name="setFont">Light</item>
+    </style>
+
+    <style name="large_text_regular">
+        <item name="android:textSize">@dimen/_14sp</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+    <style name="large_text_semi_bold">
+        <item name="android:textSize">@dimen/_14sp</item>
+        <item name="setFont">Medium</item>
+    </style>
+
+    <style name="large_medium_text_regular">
+        <item name="android:textSize">@dimen/sp15</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+    <style name="large_text_bold">
+        <item name="android:textSize">@dimen/_14sp</item>
+        <item name="setFont">Bold</item>
+    </style>
+
+    <style name="extra_large_text" parent="android:Widget">
+        <item name="android:textSize">@dimen/_16sp</item>
+        <item name="setFont">Light</item>
+    </style>
+
+    <style name="extra_large_text_regular" parent="android:Widget">
+        <item name="android:textSize">@dimen/_16sp</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+    <style name="extra_large_text_semi_bold" parent="android:Widget">
+        <item name="android:textSize">@dimen/_16sp</item>
+        <item name="setFont">Medium</item>
+    </style>
+
+    <style name="extra_large_text_bold" parent="android:Widget">
+        <item name="android:textSize">@dimen/_16sp</item>
+        <item name="setFont">Bold</item>
+    </style>
+
+    <style name="extraHeading" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+    <style name="extraHeadingSemiBold" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="setFont">Semibold</item>
+    </style>
+
+    <style name="extraHeadingBold" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="setFont">Bold</item>
+    </style>
+
+    <style name="heading" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+    <style name="headingLight" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="setFont">Light</item>
+    </style>
+
+    <style name="headingSemiBold" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="setFont">Semibold</item>
+    </style>
+
+    <style name="headingBold" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="setFont">Bold</item>
+    </style>
+
+    <style name="description" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+    <style name="descriptionSemiBold" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="setFont">Semibold</item>
+    </style>
+
+    <style name="descriptionBold" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="setFont">Bold</item>
+    </style>
+
+    <style name="descriptionItalic" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="setFont">RegularItalic</item>
+    </style>
+
+    <style name="mediumSemiBold" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp13</item>
+        <item name="setFont">Semibold</item>
+    </style>
+
+    <style name="medium" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp13</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+    <style name="small" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp11</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+    <style name="verySmall" parent="android:Widget">
+        <item name="android:textSize">@dimen/sp10</item>
+        <item name="setFont">Regular</item>
+    </style>
+
+</resources>
