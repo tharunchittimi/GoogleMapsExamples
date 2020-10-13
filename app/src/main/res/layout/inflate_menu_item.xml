@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.example.googlemapsexamples.widgets.CustomTextView
+        android:id="@+id/tvMenuIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp5"
+        android:layout_marginLeft="@dimen/dp5"
+        android:layout_marginTop="@dimen/dp18"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:setFont="Icons" />
+
+    <com.example.googlemapsexamples.widgets.CustomTextView
+        android:id="@+id/tvMenuTitle"
+        style="@style/medium_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/tvMenuIcon"
+        app:layout_constraintLeft_toRightOf="@+id/tvMenuIcon"
+        app:layout_constraintRight_toLeftOf="@+id/tvMenuArrow"
+        app:layout_constraintTop_toTopOf="@+id/tvMenuIcon" />
+
+    <com.example.googlemapsexamples.widgets.CustomTextView
+        android:id="@+id/tvMenuArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:text="@string/icon_right_arrow"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvMenuIcon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvMenuIcon"
+        app:setFont="Icons" />
+
+    <View
+        android:id="@+id/viewMenuBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0.15dp"
+        android:layout_marginTop="@dimen/dp18"
+        android:background="@color/light_grey"
+        app:layout_constraintTop_toBottomOf="@+id/tvMenuIcon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

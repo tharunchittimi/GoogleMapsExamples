@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutMenuTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.example.googlemapsexamples.widgets.CustomTextView
+            android:id="@+id/imgClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp15"
+            android:layout_marginTop="@dimen/dp15"
+            android:padding="@dimen/dp5"
+            android:text="@string/icon_Close"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp12"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:setFont="Icons" />
+
+        <com.example.googlemapsexamples.widgets.CustomTextView
+            style="@style/large_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@id/imgClose"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imgClose" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_marginEnd="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp5"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutMenuTop" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

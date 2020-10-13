@@ -104,6 +104,7 @@
     <color name="poor_un_select_color">#80FF7F80</color>
     <color name="dark_green">#3FB35B</color>
     <color name="transparent_bg_black">#B3000000</color>
+    <color name="dashboard_background">#F4F4F4</color>
 </resources>
 
 
