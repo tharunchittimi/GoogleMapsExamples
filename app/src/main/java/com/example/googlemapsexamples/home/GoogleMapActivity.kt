@@ -37,8 +37,6 @@ class GoogleMapActivity : BaseActivity(), OnMapReadyCallback {
     private val MENU_SNAP = 1002
     private var menuAdapter: MenuAdapter? = null
     private var clickedTime = 0L
-    private var mapFragment: SupportMapFragment? = null
-    private var mMap: GoogleMap? = null
 
     override fun setLayout(): Int {
         return R.layout.activity_nav
@@ -49,13 +47,6 @@ class GoogleMapActivity : BaseActivity(), OnMapReadyCallback {
         setupNavigationView()
         setUpNavigationDrawer()
         setMenuAdapter()
-        mapsInit()
-    }
-
-    private fun mapsInit() {
-        mapFragment = supportFragmentManager
-            .findFragmentById(R.id.mapFragment) as SupportMapFragment
-        mapFragment?.getMapAsync(this)
     }
 
     private fun setupNavigationView() {
@@ -171,12 +162,7 @@ class GoogleMapActivity : BaseActivity(), OnMapReadyCallback {
     }
 
     override fun onMapReady(googleMap: GoogleMap?) {
-        setMap(googleMap)
+
     }
 
-    private fun setMap(googleMap: GoogleMap?) {
-        googleMap?.uiSettings?.isMapToolbarEnabled = false
-        mMap = googleMap
-        mMap?.clear()
-    }
 }
