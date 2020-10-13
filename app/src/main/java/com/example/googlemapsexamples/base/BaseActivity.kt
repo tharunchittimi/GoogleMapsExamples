@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.googlemapsexamples.R
-import com.example.googlemapsexamples.utils.showSnackBar
+import com.example.googlemapsexamples.utill.showSnackBar
 
 
 abstract class BaseActivity : AppCompatActivity() {

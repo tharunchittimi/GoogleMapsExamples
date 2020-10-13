@@ -1,4 +1,4 @@
-package com.example.googlemapsexamples.utils
+package com.example.googlemapsexamples.utill
 
 import android.app.Activity
 import android.graphics.Color
